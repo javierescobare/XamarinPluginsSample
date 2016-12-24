@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinPluginsSample"
+             x:Class="XamarinPluginsSample.MainPage">
+
+  <StackLayout Orientation="Vertical">
+    <Button Text="Toma una foto" Clicked="TakePic" View.Margin="0,20,0,20"/>
+    <Image x:Name="MyImage" View.VerticalOptions="Center" View.HorizontalOptions="Center" />
+  </StackLayout>
+
+</ContentPage>
